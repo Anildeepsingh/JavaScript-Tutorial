@@ -205,3 +205,63 @@ while (j < arr.length) {
 // const newLen = myArr.unshift("Anil");
 // console.log(newLen);*/
 // console.log(myArr);
+
+//12. String methods in Javascript
+
+let myLovelyString = "Anil is a good boy good good";
+// console.log(myLovelyString.length);
+// console.log(myLovelyString.indexOf("good")); /*string k start se check krta hai*/
+// console.log(myLovelyString.lastIndexOf("good")); /*string k last se check krta hai*/
+// console.log(myLovelyString.slice(0, 3)); /*string m 0 se le kr 3 tk show krega (i.e:-Ani)*/
+// console.log(myLovelyString.replace("Anil", "Anna"));/*string m "Anil" ko "Anna" se replace kr diya*/
+
+//13. Date
+
+let myDate = new Date();
+// console.log(myDate);
+// console.log(myDate.getTime());
+// console.log(myDate.getFullYear());
+// console.log(myDate.getDay());
+// console.log(myDate.getMinutes());
+// console.log(myDate.getHours());
+
+//14. Events in Javascript
+
+function clicked() {
+  // console.log("The button was clicked");
+}
+
+//15. Arrow Function
+
+// function sum(a, b) {
+//   return a + b;
+// }
+// /*normal function*/
+// sum = (a, b) => {
+//   return a + b;
+// };
+// /*arrow function*/
+
+//16. SetTimeout and SetInterval
+// logKaro = () => {
+//   console.log("I am your log");
+// };
+// // setTimeout(logKaro, 3000);/*3 sec baad sirf ek baar "I am your log" through krega*/
+// // setInterval(logKaro, 3000);/*hr 3 sec m "I am your log" through krega , lagatar*/
+// // clr = setTimeout(logKaro, 3000);
+// // clr = setInterval(logKaro, 3000);
+// /*use clearInterval(clr)/clearTimeout(clr) to cancel setInterval/setTimeout*/
+
+//17. Javascript LocalStorage
+
+// localStorage.setItem("name", "Anil");
+// // console.log(localStorage);
+// /*for saving in local storage*/
+
+// localStorage.clear();
+// // console.log(localStorage);
+// /*for clearing the local storage*/
+
+// localStorage.setItem("name", "Anil");
+// // console.log(localStorage);
+// localStorage.getItem("name");
