@@ -63,23 +63,145 @@ var marks = {
 // console.log(marks);
 
 // Arrays
-var arr = [1, 2, 3, "anil", 5];
+// var arr = [1, 2, 3, "anil", 5];
 // console.log(arr[3]);
 // console.log(arr[0]);
 // console.log(arr[4]);
 // console.log(arr);
 
-// Operators in JavaScript
+//5. Operators in JavaScript
 // Arithmetic Operators
 var a = 34;
 var b = 56;
-console.log("The value of a + b is", a + b);
-console.log("The value of a - b is", a - b);
-console.log("The value of a * b is", a * b);
-console.log("The value of a / b is", a / b);
+// console.log("The value of a + b is", a + b);
+// console.log("The value of a - b is", a - b);
+// console.log("The value of a * b is", a * b);
+// console.log("The value of a / b is", a / b);
 
 // Assingment Operators
 var c = b;
-c += 2;
-c;
-console.log(c);
+// c += 2; // c = c + 2;
+// c -= 2;
+// c *= 2;
+// c /= 2;
+// console.log(c);
+
+// Comparison Operators
+var x = 34;
+var y = 56;
+// console.log(x == y);
+// console.log(x >= y);
+// console.log(x <= y);
+// console.log(x > y);
+// console.log(x < y);
+
+// Logical operators
+
+// Logica and
+// console.log(true && true);
+// console.log(true && false);
+// console.log(false && true);
+// console.log(false && false);
+
+// Logical or
+// console.log(true || true);
+// console.log(true || false);
+// console.log(false || true);
+// console.log(false || false);
+
+// Logical not
+// console.log(!false);
+// console.log(!true);
+
+//6. Function in javascript
+
+function avg(a, b) {
+  return (a + b) / 2;
+}
+
+c1 = avg(4, 6);
+c2 = avg(14, 16);
+// console.log(c1, c2);
+
+// or we can also write it on different way like
+
+function avg(a, b) {
+  c = (a + b) / 2;
+  return c;
+}
+
+c1 = avg(4, 6);
+c2 = avg(14, 16);
+// console.log(c1, c2);
+
+//7. Conditionals in javascript
+/*
+var age = 41;
+// Single if statement:-
+// if (age > 18) {
+//   console.log("you can drink");
+// }
+// if-else statement:-
+// if (age > 18) {
+//   console.log("you can drink");
+// } else {
+//   console.log("you cannot drink");
+// }
+// if-else ladder:-
+if (age > 32) {
+  console.log("bachhe ni ho");
+} else if (age > 26) {
+  console.log("bacche nahi rahe");
+} else if (age > 22) {
+  console.log("yes bacche nahi rahe");
+} else if (age > 18) {
+  console.log("18 bacche nahi rahe");
+} else {
+  console.log("bacche rahe");
+}
+console.log("end of ladder");
+*/
+
+//8. For loop
+
+// var arr = [1, 2, 3, 4, 5, 6, 7];
+// console.log(arr);
+// for (var i = 0; i < arr.length; i++) {
+//   console.log(arr[i]);
+// }
+
+//9. while loop
+/*
+var arr = [1, 2, 3, 4, 5, 6, 7];
+let j = 0;
+while (j < arr.length) {
+  console.log(arr[j]);
+  j++;
+}
+*/
+
+//10. Break statement or continue statement
+
+// var arr = [1, 2, 3, 4, 5, 6, 7];
+
+// for (var i = 0; i < arr.length; i++) {
+//   if (i == 2) {
+//     // break; /*array length 2 k baad kuch bhi print ni hoga*/
+//     continue; /*array length m no. 2 place holder (i.e:-3) ko chod kr sb print hoga*/
+//   }
+//   console.log(arr[i]);
+// }
+
+//11.  Array methods
+
+// let myArr = ["Fan", "Camera", 34, null, true];
+// // Methods are:-
+// console.log(myArr.length);
+// // myArr.pop(); /*array m se last element nikal sckta hai*/
+// // myArr.push("anil"); /*array k last m add kr sckte hai*/
+// // myArr.shift(); /*array m se phela element nikal sckte hai*/
+// myArr.unshift("Anil"); /*array k starting m element add kr sckte hai*/
+// /* unshift k baad agar new length dekhi ho toh :-
+// const newLen = myArr.unshift("Anil");
+// console.log(newLen);*/
+// console.log(myArr);
