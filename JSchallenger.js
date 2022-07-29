@@ -18,6 +18,8 @@ function myFunction(a) {
   return typeof a;
 }
 
+// use slice for removing any element from the String
+
 // Write a function that takes a string (a) as argument
 // Remove the first 3 characters of a
 // Return the result
