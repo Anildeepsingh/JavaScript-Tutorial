@@ -44,4 +44,4 @@ let studentsData = [
   ["Sara", 23],
   ["Peter", 24],
 ];
-console.log(studentsData);
+// console.log(studentsData);
