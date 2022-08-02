@@ -1,7 +1,7 @@
 //1:- javascript array
 
 //create an array like so:
-var colors = ["red", "blue", "green"];
+// var colors = ["red", "blue", "green"];
 
 //you can loop through an array like this:
 for (var i = 0; i < colors.length; i++) {
